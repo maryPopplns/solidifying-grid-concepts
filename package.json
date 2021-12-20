@@ -1,0 +1,20 @@
+{
+  "name": "solidifying-grid-concepts",
+  "version": "1.0.0",
+  "description": "<h1 align='center'>responsive design using css grid</h1>",
+  "main": "index.js",
+  "scripts": {
+    "add": "git add . && git commit && git push origin $(git rev-parse --abbrev-ref HEAD)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryPopplns/solidifying-grid-concepts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maryPopplns/solidifying-grid-concepts/issues"
+  },
+  "homepage": "https://github.com/maryPopplns/solidifying-grid-concepts#readme"
+}
