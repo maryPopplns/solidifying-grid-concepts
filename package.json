@@ -4,7 +4,8 @@
   "description": "<h1 align='center'>responsive design using css grid</h1>",
   "main": "index.js",
   "scripts": {
-    "add": "git add . && git commit && git push origin $(git rev-parse --abbrev-ref HEAD)"
+    "add": "git add . && git commit && git push origin $(git rev-parse --abbrev-ref HEAD)",
+    "scss": "sass --watch scss:build"
   },
   "repository": {
     "type": "git",

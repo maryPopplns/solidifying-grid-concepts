@@ -2,7 +2,7 @@
 
 <h2 >LEARNED</h2>
 - learned about responsive grid frameworks
-- learned the basics of 960GS and bootstrap, to see how frameworks operate and what theyre capable of
+- learned the basics of 960GS (https://960.gs/) and bootstrap (https://getbootstrap.com/), to see how frameworks operate and what theyre capable of
 - learned basics of SASS preprocessor
 - decided that I should learn grid more thoughly to create responsive layouts instead of frameworks
 
