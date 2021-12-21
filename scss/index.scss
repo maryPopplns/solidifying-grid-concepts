@@ -16,7 +16,7 @@ $light-gray: #4a4a4ab3;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0.5em 1em;
+  margin: 0.25em 1em;
   box-sizing: border-box;
   .header-container {
     display: flex;
@@ -25,16 +25,15 @@ $light-gray: #4a4a4ab3;
     width: 100%;
     a {
       display: inherit;
-      justify-content: space-between;
       align-items: center;
       text-decoration: none;
       img {
         width: 20%;
       }
       p {
-        margin-left: 0.5em;
+        margin-left: 0.25em;
         color: $light-brown;
-        font: 2em 'norse-bold';
+        font: 1.75em 'norse-bold';
       }
     }
     a:hover {

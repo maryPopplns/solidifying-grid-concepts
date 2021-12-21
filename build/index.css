@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0.5em 1em;
+  margin: 0.25em 1em;
   box-sizing: border-box;
 }
 #header .header-container {
@@ -21,7 +21,6 @@
 }
 #header .header-container a {
   display: inherit;
-  justify-content: space-between;
   align-items: center;
   text-decoration: none;
 }
@@ -29,9 +28,9 @@
   width: 20%;
 }
 #header .header-container a p {
-  margin-left: 0.5em;
+  margin-left: 0.25em;
   color: #ce973e;
-  font: 2em "norse-bold";
+  font: 1.75em "norse-bold";
 }
 #header .header-container a:hover {
   cursor: grab;
