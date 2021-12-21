@@ -1,1 +1,11 @@
-
+@media (min-width: 765px) {
+  #header nav {
+    display: block;
+  }
+  #header nav ul {
+    display: flex;
+  }
+  #header i {
+    display: none;
+  }
+}

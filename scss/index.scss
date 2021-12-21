@@ -24,6 +24,9 @@ $light-brown: #ce973e;
   }
   nav {
     display: none;
+    ul {
+      display: flex;
+    }
   }
   i {
     color: $light-blue;

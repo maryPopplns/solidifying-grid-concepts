@@ -22,6 +22,9 @@
 #header nav {
   display: none;
 }
+#header nav ul {
+  display: flex;
+}
 #header i {
   color: #6abfc3;
   font-size: 2em;
