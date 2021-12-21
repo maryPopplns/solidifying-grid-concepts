@@ -1,1 +1,19 @@
-
+@font-face {
+  font-family: "norse-bold";
+  src: url("../assests/font/Norse-Bold.otf");
+}
+#header {
+  display: flex;
+  margin: 0.5em 1em;
+}
+#header a {
+  display: inherit;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+#header a p {
+  margin-left: 0.5em;
+  color: #ce973e;
+  font: 2em "norse-bold";
+}
