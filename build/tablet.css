@@ -1,0 +1,8 @@
+@media (min-width: 775px) and (max-width: 1000px) {
+  #header .header-container nav {
+    display: block;
+  }
+  #header .header-container i {
+    display: none;
+  }
+}

@@ -1,0 +1,16 @@
+@media (min-width: 1000px) {
+  #header {
+    .header-container {
+      max-width: 1275px;
+      nav {
+        display: block;
+      }
+      i {
+        display: none;
+      }
+    }
+  }
+  #header .header-container nav ul li a {
+    font-size: 1.4em;
+  }
+}

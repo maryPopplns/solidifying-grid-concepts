@@ -1,11 +1,11 @@
 {
   "name": "solidifying-grid-concepts",
   "version": "1.0.0",
-  "description": "<h1 align='center'>responsive design using css grid</h1>",
-  "main": "index.js",
+  "description": "responsive design using css grid",
+  "main": "index.html",
   "scripts": {
-    "add": "git add . && git commit && git push origin $(git rev-parse --abbrev-ref HEAD)",
-    "scss": "sass --watch scss:build"
+    "add": "git add . && git commit && git push origin $(git rev-parse --abbrev-ref HEAD) && echo '\n' && echo $(tput setaf 2)'commited: ' $(tput setaf 1)$(date) && echo '\n'",
+    "scss": "sass --no-source-map --watch scss:build"
   },
   "repository": {
     "type": "git",
