@@ -8,45 +8,54 @@
 }
 #header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 0.5em 1em;
+  box-sizing: border-box;
 }
-#header a {
+#header .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#header .header-container a {
   display: inherit;
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
 }
-#header a p {
+#header .header-container a img {
+  width: 20%;
+}
+#header .header-container a p {
   margin-left: 0.5em;
   color: #ce973e;
   font: 2em "norse-bold";
 }
-#header a:hover {
+#header .header-container a:hover {
   cursor: grab;
 }
-#header nav {
+#header .header-container nav {
   display: none;
 }
-#header nav ul {
+#header .header-container nav ul {
   display: flex;
   align-items: center;
 }
-#header nav ul .nav-divider {
+#header .header-container nav ul .nav-divider {
   height: 32px;
-  width: 2px;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  border-left: 1.5px solid #4a4a4ab3;
+  border-right: 1.5px solid #4a4a4ab3;
 }
-#header nav ul li {
+#header .header-container nav ul li {
   margin: 0 10px;
 }
-#header nav ul li a {
+#header .header-container nav ul li a {
+  color: #4a4a4ab3;
   font-family: open-sans;
-  font-size: 1.4em;
 }
-#header i {
+#header .header-container i {
   color: #6abfc3;
   font-size: 2em;
 }

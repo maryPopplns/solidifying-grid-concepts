@@ -1,11 +1,8 @@
-@media (min-width: 940px) {
-  #header {
-    max-width: 1275px;
-  }
-  #header nav {
+@media (min-width: 775px) and (max-width: 1000px) {
+  #header .header-container nav {
     display: block;
   }
-  #header i {
+  #header .header-container i {
     display: none;
   }
 }

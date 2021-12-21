@@ -1,11 +1,12 @@
-@media (min-width: 940px) {
+@media (min-width: 775px) and (max-width: 1000px) {
   #header {
-    max-width: 1275px;
-    nav {
-      display: block;
-    }
-    i {
-      display: none;
+    .header-container {
+      nav {
+        display: block;
+      }
+      i {
+        display: none;
+      }
     }
   }
 }
