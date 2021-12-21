@@ -4,7 +4,7 @@
   "description": "responsive design using css grid",
   "main": "index.html",
   "scripts": {
-    "add": "git add . && git commit && git push origin $(git rev-parse --abbrev-ref HEAD) && echo '\n' && echo $(date)",
+    "add": "git add . && git commit && git push origin $(git rev-parse --abbrev-ref HEAD) && echo '\n' && echo 'commited: ' $(date)",
     "scss": "sass --no-source-map --watch scss:build",
     "date": "echo 'one' && echo '\n' && echo $(date)"
   },
