@@ -1,1 +1,67 @@
+$light-blue: #6abfc3;
+$light-brown: #ce973e;
+$light-gray: #4a4a4ab3;
 
+@font-face {
+  font-family: 'norse-bold';
+  src: url('../assests/font/Norse-Bold.otf');
+}
+
+@font-face {
+  font-family: 'open-sans';
+  src: url('../assests/font/OpenSans-Bold.ttf');
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em 1em;
+  box-sizing: border-box;
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    a {
+      display: inherit;
+      justify-content: space-between;
+      align-items: center;
+      text-decoration: none;
+      img {
+        width: 20%;
+      }
+      p {
+        margin-left: 0.5em;
+        color: $light-brown;
+        font: 2em 'norse-bold';
+      }
+    }
+    a:hover {
+      cursor: grab;
+    }
+    nav {
+      display: none;
+      ul {
+        display: flex;
+        align-items: center;
+        .nav-divider {
+          height: 32px;
+          border-left: 1.5px solid $light-gray;
+          border-right: 1.5px solid $light-gray;
+        }
+        li {
+          margin: 0 10px;
+          a {
+            color: $light-gray;
+            font-family: open-sans;
+          }
+        }
+      }
+    }
+    i {
+      color: $light-blue;
+      font-size: 2em;
+    }
+  }
+}

@@ -1,3 +1,61 @@
-
-
-/*# sourceMappingURL=index.css.map */
+@font-face {
+  font-family: "norse-bold";
+  src: url("../assests/font/Norse-Bold.otf");
+}
+@font-face {
+  font-family: "open-sans";
+  src: url("../assests/font/OpenSans-Bold.ttf");
+}
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em 1em;
+  box-sizing: border-box;
+}
+#header .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#header .header-container a {
+  display: inherit;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+#header .header-container a img {
+  width: 20%;
+}
+#header .header-container a p {
+  margin-left: 0.5em;
+  color: #ce973e;
+  font: 2em "norse-bold";
+}
+#header .header-container a:hover {
+  cursor: grab;
+}
+#header .header-container nav {
+  display: none;
+}
+#header .header-container nav ul {
+  display: flex;
+  align-items: center;
+}
+#header .header-container nav ul .nav-divider {
+  height: 32px;
+  border-left: 1.5px solid #4a4a4ab3;
+  border-right: 1.5px solid #4a4a4ab3;
+}
+#header .header-container nav ul li {
+  margin: 0 10px;
+}
+#header .header-container nav ul li a {
+  color: #4a4a4ab3;
+  font-family: open-sans;
+}
+#header .header-container i {
+  color: #6abfc3;
+  font-size: 2em;
+}
