@@ -8,17 +8,25 @@ $light-brown: #ce973e;
 
 #header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0.5em 1em;
   a {
     display: inherit;
     justify-content: space-between;
     align-items: center;
-    // width: 120%;
     text-decoration: none;
     p {
       margin-left: 0.5em;
       color: $light-brown;
       font: 2em 'norse-bold';
     }
+  }
+  nav {
+    display: none;
+  }
+  i {
+    color: $light-blue;
+    font-size: 2em;
   }
 }

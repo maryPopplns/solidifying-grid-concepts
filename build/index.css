@@ -4,6 +4,8 @@
 }
 #header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0.5em 1em;
 }
 #header a {
@@ -16,4 +18,11 @@
   margin-left: 0.5em;
   color: #ce973e;
   font: 2em "norse-bold";
+}
+#header nav {
+  display: none;
+}
+#header i {
+  color: #6abfc3;
+  font-size: 2em;
 }
