@@ -1,9 +1,9 @@
-@media (min-width: 765px) {
+@media (min-width: 940px) {
+  #header {
+    max-width: 1275px;
+  }
   #header nav {
     display: block;
-  }
-  #header nav ul {
-    display: flex;
   }
   #header i {
     display: none;

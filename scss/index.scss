@@ -6,6 +6,11 @@ $light-brown: #ce973e;
   src: url('../assests/font/Norse-Bold.otf');
 }
 
+@font-face {
+  font-family: 'open-sans';
+  src: url('../assests/font/OpenSans-Bold.ttf');
+}
+
 #header {
   display: flex;
   justify-content: space-between;
@@ -22,10 +27,27 @@ $light-brown: #ce973e;
       font: 2em 'norse-bold';
     }
   }
+  a:hover {
+    cursor: grab;
+  }
   nav {
     display: none;
     ul {
       display: flex;
+      align-items: center;
+      .nav-divider {
+        height: 32px;
+        width: 2px;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+      }
+      li {
+        margin: 0 10px;
+        a {
+          font-family: open-sans;
+          font-size: 1.4em;
+        }
+      }
     }
   }
   i {

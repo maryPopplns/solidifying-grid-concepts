@@ -1,10 +1,8 @@
-@media (min-width: 765px) {
+@media (min-width: 940px) {
   #header {
+    max-width: 1275px;
     nav {
       display: block;
-      ul {
-        display: flex;
-      }
     }
     i {
       display: none;

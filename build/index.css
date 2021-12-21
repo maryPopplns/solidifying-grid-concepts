@@ -2,6 +2,10 @@
   font-family: "norse-bold";
   src: url("../assests/font/Norse-Bold.otf");
 }
+@font-face {
+  font-family: "open-sans";
+  src: url("../assests/font/OpenSans-Bold.ttf");
+}
 #header {
   display: flex;
   justify-content: space-between;
@@ -19,11 +23,28 @@
   color: #ce973e;
   font: 2em "norse-bold";
 }
+#header a:hover {
+  cursor: grab;
+}
 #header nav {
   display: none;
 }
 #header nav ul {
   display: flex;
+  align-items: center;
+}
+#header nav ul .nav-divider {
+  height: 32px;
+  width: 2px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+#header nav ul li {
+  margin: 0 10px;
+}
+#header nav ul li a {
+  font-family: open-sans;
+  font-size: 1.4em;
 }
 #header i {
   color: #6abfc3;
