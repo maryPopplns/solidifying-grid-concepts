@@ -2,6 +2,9 @@
   #header .header-container {
     max-width: 1275px;
   }
+  #header .header-container a p {
+    font-size: 2.5em;
+  }
   #header .header-container nav {
     display: block;
   }
