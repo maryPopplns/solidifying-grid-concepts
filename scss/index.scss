@@ -94,6 +94,7 @@ $light-gray: #4a4a4ab3;
     font-family: open-sans-light;
     font-weight: 600;
     font-size: 2.5em;
+    line-height: 1.25em;
     color: $light-brown;
   }
   p {
@@ -101,7 +102,8 @@ $light-gray: #4a4a4ab3;
     margin-left: 5px;
     margin-right: 5px;
     font-family: open-sans;
-    font-size: 1.25em;
+    font-size: 1.4em;
+    line-height: 1.75em;
     color: $light-gray;
   }
   a {
@@ -109,5 +111,19 @@ $light-gray: #4a4a4ab3;
     font-family: open-sans-medium;
     font-size: 1.2em;
     color: $light-brown;
+  }
+  button {
+    margin-top: 3em;
+    padding: 1em 2em;
+    background-color: $light-blue;
+    font-family: open-sans-bold;
+    font-size: 1.25em;
+    color: white;
+    box-shadow: 0 0 10px -1px #00000080;
+    border: none;
+    border-radius: 0.25em;
+  }
+  img {
+    margin-top: 5em;
   }
 }

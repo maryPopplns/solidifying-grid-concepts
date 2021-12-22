@@ -6,6 +6,7 @@
 - learned the basics of 960GS (https://960.gs/) and bootstrap (https://getbootstrap.com/), to see how frameworks operate and what theyre capable of
 - learned basics of SASS preprocessor
 - decided that I should learn grid more thoughly to create responsive layouts instead of frameworks
+- got good experience with accessability (tab index's, aria hidden,)
 
 <h2 >GRID NOTES</h2>
 
