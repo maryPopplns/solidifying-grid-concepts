@@ -28,3 +28,16 @@
     margin-right: 10px;
   }
 }
+@media (min-width: 590px) {
+  .curriculum-details ul {
+    max-width: 858px;
+  }
+
+  .curriculum-details > ul > li {
+    height: 270px;
+  }
+
+  .curriculum-details ul li img {
+    height: 160px;
+  }
+}

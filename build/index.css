@@ -175,3 +175,43 @@
 .how-it-works .connect {
   grid-area: connect;
 }
+
+.curriculum-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f3f3;
+  padding-top: 3em;
+}
+.curriculum-details h2 {
+  margin: 0 0.25em;
+  text-align: center;
+  font-family: open-sans-bold;
+  font-size: 1.75em;
+  color: #4a4a4a;
+}
+.curriculum-details ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+.curriculum-details ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: content-box;
+  margin: 8px;
+  background-color: white;
+  width: 270px;
+  height: 150px;
+}
+.curriculum-details ul li img {
+  height: 80px;
+}
+.curriculum-details ul li h3 {
+  font-family: open-sans-bold;
+  font-size: 1.5em;
+  color: #4a4a4a;
+}
