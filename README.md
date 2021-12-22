@@ -48,6 +48,6 @@
 - min
 - max
 - repeat
-  -> auto-fill: Fit as many possible columns as possible on a row, even if they are empty.
-  -> auto-fit: Fit whatever columns there are into the space. Prefer expanding columns to fill space rather than empty columns.
-  -> ex: repeat(auto-fit, minmax(250px, 1fr))
+  - auto-fill: Fit as many possible columns as possible on a row, even if they are empty.
+  - auto-fit: Fit whatever columns there are into the space. Prefer expanding columns to fill space rather than empty columns.
+  - ex: repeat(auto-fit, minmax(250px, 1fr))
