@@ -53,7 +53,7 @@ $light-gray: #4a4a4ab3;
       }
     }
     a:hover {
-      cursor: grab;
+      cursor: pointer;
     }
     nav {
       display: none;
@@ -124,6 +124,7 @@ $light-gray: #4a4a4ab3;
     box-shadow: 0 0 10px -1px #00000080;
     border: none;
     border-radius: 0.25em;
+    cursor: pointer;
   }
   img {
     margin-top: 5em;
@@ -131,6 +132,7 @@ $light-gray: #4a4a4ab3;
 }
 
 .how-it-works {
+  margin-bottom: 3em;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
@@ -140,7 +142,6 @@ $light-gray: #4a4a4ab3;
     'learn learn learn'
     'build build build'
     'connect connect connect';
-  margin-top: 4em;
   * {
     margin: 0 0.25em;
     line-height: 1.5em;

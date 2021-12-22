@@ -6,3 +6,25 @@
     display: none;
   }
 }
+@media (min-width: 850px) {
+  .how-it-works {
+    max-width: 1275px;
+    margin: auto;
+    margin-bottom: 5em;
+    gap: 0.5em;
+    grid-template-areas: "HIW-header HIW-header HIW-header" "learn build connect";
+  }
+  .how-it-works div p {
+    margin: 0;
+  }
+  .how-it-works div > img {
+    height: 185px;
+    width: auto;
+  }
+  .how-it-works .learn {
+    margin-left: 10px;
+  }
+  .how-it-works .connect {
+    margin-right: 10px;
+  }
+}
