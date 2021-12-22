@@ -8,7 +8,17 @@ $light-gray: #4a4a4ab3;
 }
 
 @font-face {
+  font-family: 'open-sans-light';
+  src: url('../assests/font/OpenSans-Light.ttf');
+}
+
+@font-face {
   font-family: 'open-sans';
+  src: url('../assests/font/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'open-sans-bold';
   src: url('../assests/font/OpenSans-Bold.ttf');
 }
 
@@ -53,7 +63,10 @@ $light-gray: #4a4a4ab3;
           margin: 0 10px;
           a {
             color: $light-gray;
-            font-family: open-sans;
+            font-family: open-sans-bold;
+          }
+          a:hover {
+            color: black;
           }
         }
       }
@@ -62,5 +75,17 @@ $light-gray: #4a4a4ab3;
       color: $light-blue;
       font-size: 2em;
     }
+  }
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  header {
+    font-family: open-sans-light;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: $light-brown;
   }
 }
