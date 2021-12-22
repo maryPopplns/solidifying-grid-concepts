@@ -227,6 +227,17 @@ $ultra-light-gray: #f3f3f3;
   ul li h3 {
     font-family: open-sans-bold;
     font-size: 1.5em;
+    text-transform: uppercase;
     color: $gray;
+  }
+  button {
+    background-color: $light-brown;
+    margin: 5rem 0;
+    padding: 1.75rem 5rem;
+    font-family: open-sans-bold;
+    font-size: 1.25rem;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
   }
 }
