@@ -228,15 +228,20 @@
 }
 
 .success-stories {
+  background-image: linear-gradient(to bottom, #fff, #eee);
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 4rem;
 }
 .success-stories h2 {
   font-family: open-sans-bold;
   font-size: 2rem;
   color: #4a4a4a;
   margin: 4rem 0;
+}
+.success-stories ul li:nth-child(n+3) {
+  display: none;
 }
 .success-stories ul li {
   display: flex;
@@ -257,9 +262,6 @@
   font-size: 1.25rem;
   color: #4a4a4ab3;
   line-height: 2.5rem;
-}
-.success-stories ul li:nth-child(n+3) {
-  display: none;
 }
 .success-stories a {
   font-family: open-sans;

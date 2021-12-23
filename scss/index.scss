@@ -243,14 +243,19 @@ $ultra-light-gray: #f3f3f3;
 }
 
 .success-stories {
+  background-image: linear-gradient(to bottom, #fff, #eee);
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 4rem;
   h2 {
     font-family: open-sans-bold;
     font-size: 2rem;
     color: $gray;
     margin: 4rem 0;
+  }
+  ul li:nth-child(n + 3) {
+    display: none;
   }
   ul li {
     display: flex;
@@ -271,9 +276,6 @@ $ultra-light-gray: #f3f3f3;
       color: $light-gray;
       line-height: 2.5rem;
     }
-  }
-  ul li:nth-child(n + 3) {
-    display: none;
   }
   a {
     font-family: open-sans;

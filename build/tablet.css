@@ -5,7 +5,8 @@
   #header .header-container i {
     display: none;
   }
-
+}
+@media (min-width: 775px) {
   .success-stories ul li img {
     display: block;
     margin-right: 3rem;

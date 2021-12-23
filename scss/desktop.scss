@@ -19,3 +19,16 @@
     font-size: 1.4em;
   }
 }
+
+@media (min-width: 1500px) {
+  .success-stories {
+    ul {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    ul li {
+      width: 650px;
+    }
+  }
+}
