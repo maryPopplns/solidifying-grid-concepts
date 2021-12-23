@@ -5,6 +5,19 @@
   #header .header-container i {
     display: none;
   }
+
+  .success-stories ul li img {
+    display: block;
+    margin-right: 3rem;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .success-stories ul li {
+    max-width: 650px;
+  }
+  .success-stories ul li:nth-child(n+3) {
+    display: flex;
+  }
 }
 @media (min-width: 850px) {
   .how-it-works {
